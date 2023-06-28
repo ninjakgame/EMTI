@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+body{
+    background: green;
+}
+
+h2 strong{
+    color: red;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+}
+
+#texto{
+    color: #a52a2a;
+    font-size: 80px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+#log{
+    width: 200px;
+}
+
+#banner-principal{
+    width: 100%;
+}
+
+.foto-banner{
+    width: 280px;
+    height: 250px;
+    margin-bottom: 5;
+    border-radius: 20%;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.conter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#final{
+    text-align: center;
+}
+
+#video{
+    background-color: rgb(30, 81, 30);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-bottom: 3px solid orange;
+}
+
+#video > .conteudo > img{
+    height: 315px;
+}
+
+.menu > ul > li > a:link{
+    text-decoration: none;
+    padding: 10px;
+}
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid red;
+}
+.menu > ul > li > a:active{
+    color: black;
+    border-bottom: 2px solid red;
+    font-weight: 700;
+}
+
+#ativo{
+    border-bottom: 2px solid red;
+}
+
+final > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+.wats{
+    position: fixed;
+    bottom: -70px;
+    right: -180px;
+    z-index: 9999;
+}
